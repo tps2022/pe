@@ -21,8 +21,10 @@ https://pokemonherokuapp.herokuapp.com/
 
 ## Install
 **Clone the repo:**
+```
 git clone https://github.com/tps2022/pe.git
 git pull https://github.com/tps2022/pe.git master
+```
 **Install packages:**
 *npm**
 ```
