@@ -16,5 +16,35 @@ A simple, scrappy app created to showcase understanding of building and deployin
 |/pokemon/:id/edit | GET | edit | EDIT when a user types localhost:3000/pokemon/:idOfPokemon/editin browser shows the user a form to edit a pokemon
 |/pokemon/:id | GET | show | SHOW when a user types localhost:3000/pokemon/:idOfPokemon shows the user an Individualpokemon in the browser|
 
-## Web Version
+## Live
 https://pokemonherokuapp.herokuapp.com/
+
+## Install
+**Clone the repo:**
+git clone https://github.com/tps2022/pe.git
+git pull https://github.com/tps2022/pe.git master
+**Install packages:**
+*npm**
+```
+npm init -y
+```
+**express**
+```
+npm i express
+```
+**react**
+```
+npm install express-react-views react@16 react-dom@16 --save
+```
+**nodemon**
+```
+npm i nodemon -g
+```
+**dotenv**
+```
+npm i dotenv
+```
+**mongoose**
+```
+npm i mongoose 
+```
