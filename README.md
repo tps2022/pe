@@ -8,7 +8,7 @@ A simple, scrappy app created to showcase understanding of building and deployin
 **App Structure**:
 | URL | HTTP Verb | Action | Notes
 | --- | --- | --- | --- | 
-| /pokemon/ | GET | index | INDEX when a user types localhost:3000/pokemonin browser this route shows a list or index of all pokemon
+| /pokemon/ | GET | index | INDEX when a user types localhost:3000/pokemon in browser this route shows a list or index of all pokemon
 |/pokemon/new | GET | new | NEW when a user types localhost:3000/pokemon/newin browser this route shows the user a form to create a NEW pokemon
 |/pokemon/:id | DELETE | destroy | DELETE initiates a delete request through a form submission with action = http://localhost:3000/pokemon/:idOfPokemon and allows the application the ability to delete a pokemon
 |/pokemon/:id | PUT | update | UPDATE initiates a put request through a form submission with action = http://localhost:3000/pokemon/:idOfPokemon and allows the application the ability to Updat edata about a pokemon
